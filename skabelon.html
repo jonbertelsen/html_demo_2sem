@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jons html skabelon demo v. 1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.svg" height="75" alt="Logo for cph business"/>
+</header>
+
+<article>
+
+    <section>
+        Syntaks: korrekt sammensætning af tegn og elementer
+        Semantik: Forståelsen og fortolkning og mening
+
+        <h1>Jon html demo</h1>
+        <p>Her kan der stå lidt tekst.</p>
+    </section>
+
+    <section>
+        <h2>Her er en underoverskrift på niveau 2</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+            make
+            a
+            type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+            containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+            versions
+            of
+            Lorem Ipsum.</p>
+    </section>
+
+    <section>
+        <h3>Her kommer der en formular</h3>
+
+        <form action="modtagerside.html" method="post">
+            <div class="formsection">
+                <div class="formitem"><label class="labelnavn greenlabel">Navn:</label> <input type="text" maxlength="50"/><br/></div>
+                <div class="formitem"><label class="labelnavn redlabel">Email:</label> <input type="text" maxlength="100"/></div>
+            </div>
+            <br/>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female" checked> Female<br>
+            <input type="radio" name="andet" value="other"> Other
+            <input type="radio" name="andet" value="noget helt andet"> Other
+            <br/><br/>
+            <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+            <input type="checkbox" name="vehicle" value="Car"> I have a car<br>
+            <input type="checkbox" name="vehicle" value="Boat" checked> I have a boat<br>
+            <br/>
+            <select>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+
+            <input type="submit" value="Tryk her"/>
+        </form>
+
+
+        <br/><br/>
+
+        <table id="demotable">
+            <thead>
+            <tr>
+                <th>Første kolonne</th><th>Anden</th><th>Tredie</th><th>Fjerde</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>En</td><td>To</td><td>Tre</td><td>Fire</td>
+            </tr>
+            <tr>
+                <td>Fem</td><td>Seks</td><td>Syv</td><td>Otte</td>
+            </tr>
+        </table>
+
+
+    </section>
+
+
+    <footer>
+        <div class="footerItem">
+            <ul>
+                <li>Først element</li>
+                <li>Andet element</li>
+                <li>Tredie element</li>
+            </ul>
+        </div>
+        <div class="footerItem">
+            <ul>
+                <li>Først Link</li>
+                <li>Andet Link</li>
+                <li>Tredie element</li>
+            </ul>
+        </div>
+        <ul>
+            <li>Navn</li>
+            <li>Navn</li>
+            <li>Tredie element</li>
+        </ul>
+        <div class="footerItem">
+        </div>
+    </footer>
+
+</article>
+
+</body>
+</html>

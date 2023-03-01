@@ -1,0 +1,89 @@
+/* Jons demo stylesheet */
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: blue;
+    font-size: 48px;
+}
+
+h2 {
+    color: blue;
+    font-size: 32px;
+}
+
+header {
+    max-width: 1024px;
+    border: 1px solid green;
+    margin-bottom: 30px;
+    background-color: #00163b;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-top: 1px solid #00163b;
+    padding-top: 10px;
+}
+
+#navn {
+    float: left;
+    width: 70px;
+}
+
+#email {
+    float: left;
+    width: 70px;
+}
+
+.labelnavn {
+    float: left;
+    width: 100px;
+}
+
+.greenlabel {
+    color: green;
+}
+
+.redlabel {
+    color: red;
+}
+
+.formsection {
+    margin-bottom: 10px;
+}
+
+.formitem {
+    margin-bottom: 5px;
+}
+
+#demotable {
+    border: 1px solid silver;
+    padding:5px;
+    border-collapse: collapse;
+}
+
+#demotable td {
+    border: 1px solid silver;
+    padding:10px;
+}
+
+#demotable th {
+    border: 1px solid silver;
+    color: red;
+    padding:10px;
+}
+
+
+
+
+
+
